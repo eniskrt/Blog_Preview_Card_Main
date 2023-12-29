@@ -6,8 +6,8 @@ const MainCard = () => {
   return (
     <Card className='card'>
       <Card.Body>
-      <Card.Img variant="top" className='img' src="./images/illustration-article.svg" />
-      <h5><Badge className='badge text-dark'>Learning</Badge></h5>
+      <Card.Img variant="top" className='img' src="./images/illustration-article.svg" alt="card-image"/>
+      <h2><Badge className='badge text-dark'>Learning</Badge></h2>
       <Card.Text className='subBadge'>Published 21 Dec 2023</Card.Text>
         <Card.Title><h1>HTML &amp; CSS foundations</h1></Card.Title>
         <Card.Text className='text'>
@@ -15,7 +15,7 @@ const MainCard = () => {
         </Card.Text>
         <div className='sub-card'>
             <img src="./images/image-avatar.webp" alt="" />
-            <h5>Greg Hooper</h5>
+            <h2>Greg Hooper</h2>
         </div>
       </Card.Body>
     </Card>

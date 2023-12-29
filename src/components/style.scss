@@ -10,12 +10,13 @@
         border-radius: 10px;
     }
     
-    h5{
+    h2{
+        font-size: 16px;
         color: (0, 0%, 7%)!important;
         
         .badge{
             background-color: hsl(47, 88%, 63%)!important;
-            margin-top: 1.5rem;
+            margin-top: 1.2rem;
         }
     }
     p.subBadge{
@@ -25,9 +26,9 @@
     }
 
     h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 600;
-        color:hsl(47, 88%, 63%) ;
+        color:hsl(0, 0%, 7%) ;
     }
 
     p.text{
@@ -42,7 +43,7 @@
             height: auto;
         }
 
-        h5{
+        h2{
             font-size: 14px;
             font-weight: 700;
             margin-left:1rem ;

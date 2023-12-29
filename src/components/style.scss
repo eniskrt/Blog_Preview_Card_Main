@@ -1,0 +1,53 @@
+@import '~bootstrap/scss/bootstrap';
+
+.card{
+    max-width: 350px;
+    border-radius: 20px!important;
+    border: 1px solid hsl(0, 0%, 7%)!important;
+    box-shadow: 15px 15px hsl(0, 0%, 7%)!important;
+
+    .img{
+        border-radius: 10px;
+    }
+    
+    h5{
+        color: (0, 0%, 7%)!important;
+        
+        .badge{
+            background-color: hsl(47, 88%, 63%)!important;
+            margin-top: 1.5rem;
+        }
+    }
+    p.subBadge{
+        color:hsl(0, 0%, 7%);
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color:hsl(47, 88%, 63%) ;
+    }
+
+    p.text{
+        color: hsl(0, 0%, 50%);
+    }
+    .sub-card{
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 35px;
+            height: auto;
+        }
+
+        h5{
+            font-size: 14px;
+            font-weight: 700;
+            margin-left:1rem ;
+            margin-bottom: 0;
+            margin-right: auto;
+        }
+    }
+}
